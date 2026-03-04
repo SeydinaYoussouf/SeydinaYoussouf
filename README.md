@@ -1,6 +1,6 @@
 # Bonjour ! 👋
 
-Je suis **Seydina Youssouf**, étudiant en **Data Science & Big Data**, passionné par la science des données et la visualisation interactive.  
+Je m'appelle **Youssoupha Ndiaye**, étudiant en **Data Science & Big Data**, passionné par la science des données et la visualisation interactive.  
 
 J’ai complété avec succès la certification **Front End Development Libraries – Mastering Data Visualization with 5 Projects** sur FreeCodeCamp :  
 
