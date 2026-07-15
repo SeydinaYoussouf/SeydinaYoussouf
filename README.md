@@ -55,9 +55,17 @@ Treemap interactif illustrant les ventes de jeux vidéo par catégorie, avec **t
 
 ## 🌱 Projets en Cours
 
-- Analyse des émissions de CO2 (1960-2019)
-- Étude des prénoms féminins américains (1880-1889)
-- Exploration des données avec PostgreSQL
+### Analyse des émissions de CO2 (1960-2019)
+### Étude des prénoms féminins américains (1880-1889)
+### Exploration des données avec PostgreSQL
+### 🔹 ProjetTracker – Application Web avec Flask 🚀 :
+Développement d'une application web de gestion de projets avec **Flask** (Python) et **PostgreSQL**. L'application permettra de :
+- ✅ Créer, lire, mettre à jour et supprimer des projets
+- ✅ Gérer les tâches et les assignations
+- ✅ Visualiser l'avancement des projets avec des indicateurs
+- ✅ Authentification et gestion des utilisateurs
+- ✅ Interface intuitive avec HTML/CSS/Bootstrap
+
 
 ---
 
