@@ -43,6 +43,8 @@ Treemap interactif illustrant les ventes de jeux vidéo par catégorie, avec **t
 - **Python** (types scalaires, opérateurs, contrôle de flux, chaînes, collections, modularité, objets et classes)
 - **SQL** (PostgreSQL, requêtes complexes, CTEs, analyses statistiques)
 - **Git & GitHub** (gestion de versions, collaboration)
+- **Flask** (blueprints, SQLAlchemy, Flask-WTF, Flask-Login)
+- **HTML / CSS / Bootstrap** (templates Jinja, design responsive)
 
 ### Data Visualization
 - Création d'**axes et échelles dynamiques**
@@ -53,19 +55,46 @@ Treemap interactif illustrant les ventes de jeux vidéo par catégorie, avec **t
 
 ---
 
+## 🚀 Projets Réalisés
+
+### 🔹 Analyse des émissions de CO2 (1960-2019) ✅
+Exploration des données historiques d'émissions de CO2 par pays avec **PostgreSQL**. Extraction de tendances, identification des principaux pollueurs et calcul d'indicateurs statistiques (écart-type, croissance annuelle, catégorisation).
+
+### 🔹 Étude des prénoms féminins américains (1880-1889) ✅
+Analyse des tendances de popularité, des taux de croissance annuels, de la volatilité et de la concentration du marché des prénoms féminins aux États-Unis sur la décennie 1880-1889 avec **PostgreSQL**.
+
+### 🔹 ProjectTrack – Application de suivi de projets étudiants ✅
+Application web complète de gestion de projets développée avec **Flask** et **PostgreSQL**.
+
+#### Fonctionnalités implémentées :
+- ✅ **Authentification** : Création de compte, connexion/déconnexion avec Flask-Login
+- ✅ **Gestion des projets** : CRUD complet (Créer, Lire, Modifier, Supprimer)
+- ✅ **Champs d'un projet** : Titre, description, domaine, statut (En attente, En cours, Terminé)
+- ✅ **Sécurité** : Un étudiant ne peut modifier/supprimer que ses propres projets
+- ✅ **Tableau de bord** : Vue d'ensemble avec le nombre total de projets et répartition par statut
+- ✅ **Interface** : Templates Jinja avec héritage, navigation claire, CSS statique
+- ✅ **Messages flash** : Confirmation des actions (création, modification, suppression)
+- ✅ **Organisation** : Blueprints pour une architecture modulaire
+- ✅ **Formulaires** : Flask-WTF pour la validation et la sécurité
+- ✅ **Base de données** : SQLAlchemy 2.x avec modèles relationnels
+
+#### Comptes de test :
+| Utilisateur | Email | Mot de passe |
+|-------------|-------|--------------|
+| Étudiant 1 | etudiant1@test.com | password123 |
+| Étudiant 2 | etudiant2@test.com | password123 |
+| Étudiant 3 | etudiant3@test.com | password123 |
+
+---
+
 ## 🌱 Projets en Cours
 
-### Analyse des émissions de CO2 (1960-2019)
-### Étude des prénoms féminins américains (1880-1889)
-### Exploration des données avec PostgreSQL
-### 🔹 ProjetTracker – Application Web avec Flask 🚀 :
-Développement d'une application web de gestion de projets avec **Flask** (Python) et **PostgreSQL**. L'application permettra de :
-- ✅ Créer, lire, mettre à jour et supprimer des projets
-- ✅ Gérer les tâches et les assignations
-- ✅ Visualiser l'avancement des projets avec des indicateurs
-- ✅ Authentification et gestion des utilisateurs
-- ✅ Interface intuitive avec HTML/CSS/Bootstrap
-
+### 🔹 ProjetTracker – Application Web avec Flask 🚀 (Version améliorée)
+Développement d'une version enrichie de l'application de gestion de projets avec :
+- ✅ Fonctionnalités avancées (filtres, recherche, pagination)
+- ✅ Notifications en temps réel
+- ✅ Exportation des données (CSV, PDF)
+- ✅ API REST pour une intégration future avec Vue.js
 
 ---
 
