@@ -40,7 +40,7 @@ Treemap interactif illustrant les ventes de jeux vidéo par catégorie, avec **t
 
 ### Langages & Outils
 - **JavaScript** (D3.js, manipulation du DOM, événements)
-- **Python** (types scalaires, opérateurs, contrôle de flux, chaînes, collections, modularité, objets et classes)
+- **Python** (types scalaires, opérateurs, contrôle de flux, chaînes, collections, modularité, objets et classes, POO avancée)
 - **SQL** (PostgreSQL, requêtes complexes, CTEs, analyses statistiques)
 - **Git & GitHub** (gestion de versions, collaboration)
 - **Flask** (blueprints, SQLAlchemy, Flask-WTF, Flask-Login)
@@ -60,8 +60,16 @@ Treemap interactif illustrant les ventes de jeux vidéo par catégorie, avec **t
 ### 🔹 Analyse des émissions de CO2 (1960-2019) ✅
 Exploration des données historiques d'émissions de CO2 par pays avec **PostgreSQL**. Extraction de tendances, identification des principaux pollueurs et calcul d'indicateurs statistiques (écart-type, croissance annuelle, catégorisation).
 
+**Dépôt GitHub** : [co2-emissions-analysis](https://github.com/SeydinaYoussouf/co2-emissions-analysis)
+
+---
+
 ### 🔹 Étude des prénoms féminins américains (1880-1889) ✅
 Analyse des tendances de popularité, des taux de croissance annuels, de la volatilité et de la concentration du marché des prénoms féminins aux États-Unis sur la décennie 1880-1889 avec **PostgreSQL**.
+
+**Dépôt GitHub** : [us-female-names-analysis-1880-1889](https://github.com/SeydinaYoussouf/us-female-names-analysis-1880-1889)
+
+---
 
 ### 🔹 ProjectTrack – Application de suivi de projets étudiants ✅
 Application web complète de gestion de projets développée avec **Flask** et **PostgreSQL**.
@@ -87,6 +95,33 @@ Application web complète de gestion de projets développée avec **Flask** et *
 
 ---
 
+### 🔹 HotelBookingPro – Système de réservation hôtelière ✅
+Système avancé de réservation hôtelière en **Python** utilisant les concepts de la **Programmation Orientée Objet (POO)**.
+
+**Dépôt GitHub** : [HotelBookingPro](https://github.com/SeydinaYoussouf/HotelBookingPro)
+
+#### Concepts POO implémentés :
+- ✅ **Abstraction** : Classe abstraite `Chambre` avec méthode `calculer_prix()` à implémenter
+- ✅ **Héritage** : `ChambreStandard` et `ChambreLuxueuse` héritent de `Chambre`
+- ✅ **Héritage multiple** : `ChambreLuxueuse` hérite de `Chambre` et `ServiceSpa`
+- ✅ **Encapsulation** : Attributs privés avec getters et setters
+- ✅ **Exceptions personnalisées** : `ChambreNonDisponibleException`, `ClientNotFoundException`, `ReservationInvalideException`
+- ✅ **Gestion des réservations** : CRUD complet avec persistance CSV
+
+#### Structure du Projet:
+HotelBookingPro/
+  ├── chambre.py # Classes Chambre, ChambreStandard, ChambreLuxueuse, ServiceSpa
+  ├── client.py # Classe Client
+  ├── reservation.py # Classe Reservation avec génération d'ID automatique
+  ├── hotel.py # Classe Hotel avec gestion des réservations
+  ├── exceptions.py # Exceptions personnalisées
+  ├── main.py # Point d'entrée avec démonstration
+  ├── tests.py # Tests unitaires des fonctionnalités
+  ├── reservations.csv # Persistance des données
+  └── README.md # Documentation du projet 
+
+
+
 ## 🌱 Projets en Cours
 
 ### 🔹 ProjetTracker – Application Web avec Flask 🚀 (Version améliorée)
@@ -106,4 +141,4 @@ Développement d'une version enrichie de l'application de gestion de projets ave
 
 ---
 
-⭐ *N'hésitez pas à explorer mes dépôts GitHub et à me contacter pour toute collaboration !*
+ *N'hésitez pas à explorer mes dépôts GitHub et à me contacter pour toute collaboration !*
