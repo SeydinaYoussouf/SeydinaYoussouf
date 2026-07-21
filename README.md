@@ -108,19 +108,6 @@ Système avancé de réservation hôtelière en **Python** utilisant les concept
 - ✅ **Exceptions personnalisées** : `ChambreNonDisponibleException`, `ClientNotFoundException`, `ReservationInvalideException`
 - ✅ **Gestion des réservations** : CRUD complet avec persistance CSV
 
-#### Structure du Projet:
-HotelBookingPro/
-  ├── chambre.py # Classes Chambre, ChambreStandard, ChambreLuxueuse, ServiceSpa
-  ├── client.py # Classe Client
-  ├── reservation.py # Classe Reservation avec génération d'ID automatique
-  ├── hotel.py # Classe Hotel avec gestion des réservations
-  ├── exceptions.py # Exceptions personnalisées
-  ├── main.py # Point d'entrée avec démonstration
-  ├── tests.py # Tests unitaires des fonctionnalités
-  ├── reservations.csv # Persistance des données
-  └── README.md # Documentation du projet 
-
-
 
 ## 🌱 Projets en Cours
 
