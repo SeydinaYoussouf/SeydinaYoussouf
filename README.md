@@ -10,10 +10,12 @@
 |---------------|------------|--------|
 | **Data Visualization** | <img src="https://img.shields.io/badge/FreeCodeCamp-Data_Visualization-brightgreen" alt="FreeCodeCamp Data Visualization"> | ✅ Validée |
 | **Python (Basic)** | <img src="https://img.shields.io/badge/HackerRank-Python_(Basic)-brightgreen" alt="HackerRank Python Basic"> | ✅ Validée |
+| **Python** | <img src="https://img.shields.io/badge/Kaggle-Python-brightgreen" alt="Kaggle Python"> | ✅ Validée |
 
 ### 🔗 Liens vers les certifications
 - [📊 Data Visualization - FreeCodeCamp](https://freecodecamp.org/certification/seydina_youssouf17/data-visualization)
 - [🐍 Python (Basic) - HackerRank](https://www.hackerrank.com/certificates/8c643a55f480)
+- [🐍 Python - Kaggle](https://www.kaggle.com/learn/certification/youssouphandiaye/python)
 
 ---
 
@@ -108,6 +110,7 @@ Système avancé de réservation hôtelière en **Python** utilisant les concept
 - ✅ **Exceptions personnalisées** : `ChambreNonDisponibleException`, `ClientNotFoundException`, `ReservationInvalideException`
 - ✅ **Gestion des réservations** : CRUD complet avec persistance CSV
 
+---
 
 ## 🌱 Projets en Cours
 
@@ -128,4 +131,4 @@ Développement d'une version enrichie de l'application de gestion de projets ave
 
 ---
 
- *N'hésitez pas à explorer mes dépôts GitHub et à me contacter pour toute collaboration !*
+⭐ *N'hésitez pas à explorer mes dépôts GitHub et à me contacter pour toute collaboration !*
